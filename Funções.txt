@@ -1,0 +1,26 @@
+biblioteca math
+ceil - arredonda pra cima
+floor - arredonda pra baixo
+trunc - elimina tudo depois da v�rgula
+pow - pot�ncia
+sqrt - raiz
+factorial - fatorial
+
+ocê pode utilizar o Pyinstaller:
+- Instale: pip install pyinstaller
+- navegue até a pasta onde consta o script em python
+- torne executavel utilizando o comando: pyinstaller script.py
+- se quiser compilar tudo em um arquivo só uilize: pyinstaller script.py --onefile﻿
+
+print (frase[9:21:3])
+//imprime uma string a partir da posição 9 até a 20
+//saltando de 3 em 3 posições
+
+print(frase[:5])
+//imprime da 0 até a 5
+
+print(frase[5:])
+//imprime da posição 5 até ao final
+
+print(frase[5::2])
+//imprime tudo a partir da posição 5, saltando de 2 em 2 posições
