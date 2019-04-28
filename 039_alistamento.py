@@ -1,5 +1,8 @@
 import datetime
-idade = int(input("Qual a sua idade? "))
+ano_nasc = int(input("Em que ano você nasceu? "))
+
+ano_atual = datetime.date.today().year
+idade = ano_atual - ano_nasc
 
 if idade == 18:
    print ("É hora de se alistar jovem")

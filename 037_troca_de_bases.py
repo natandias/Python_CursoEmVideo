@@ -1,6 +1,17 @@
 num = int(input("Digite o numero a ser convertido: "))
-print("Digite 2 para binário, 8 para octal ou 16 para hexadecimal")
+
+print('''Escolha a base para qual deseja converter: 
+[   2  ] Binário
+[   8  ] Octal
+[  16  ] Hexadecimal
+''')
 base = int(input("Base a qual deseja converter:  "))
+
+while base != 2 and base != 8 and base != 16:
+        print("\nVocê escolheu uma opção inválida!!!")
+        base = int(input("Escolha entre base 2, base 8 ou base 16: "))
+
+
 numero = num  # armazena o numero para ser utilizado no print
 
 i = 0
