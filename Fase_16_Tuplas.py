@@ -46,7 +46,8 @@ print(eat)
 print(type(eat))
 
 print("\n")
-''' se você possui duas tuplas e faz a soma da duas, o retorno são as duas concatenadas '''
+''' se você possui duas tuplas e faz a soma da duas,
+    o retorno são as duas concatenadas '''
 # ex:
 tuplaA = (2, 3, 5, 7)
 tuplaB = (5, 6, 18)
@@ -54,10 +55,10 @@ tuplaC = tuplaA + tuplaB
 print("TuplaA + TublaB =", tuplaC)
 
 ''' Retornar quantos elementos se repetem na tupla'''
-print(tuplaC.count(5))
+print("\nO numero cinco se repete", tuplaC.count(5), "vezes")
 
 ''' Retornar a posição de determinado elemento '''
-print(tuplaC.index(18))
+print("\nA posição do numero 18 na tupla é:", tuplaC.index(18))
 
 ''' Tupla com tipos diferentes de dados: '''
 pessoa = ('Joao', 40, 'M', 70)
