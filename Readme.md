@@ -1,1 +1,3 @@
-Lista de exercícios resolvida do Curso em Vídeo de Python 3, disponibilizados pelo professor Gustavo Guanabara. Enunciados e resolução em vídeo disponíveis no link: https://youtu.be/nIHq1MtJaKs 
+# Python - Curso em VÃ­deo
+
+Lista de exercÃ­cios resolvida do Curso em VÃ­deo de Python 3, disponibilizados pelo professor Gustavo Guanabara. Enunciados e resoluÃ§Ã£o em vÃ­deo disponÃ­veis no link: https://youtu.be/nIHq1MtJaKs 
