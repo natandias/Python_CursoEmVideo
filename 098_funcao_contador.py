@@ -28,6 +28,7 @@ def contagem(ini, fim, passo):
 # MAIN
 contagem(1, 10, 1)
 contagem(10, 0, 2)
+help(contagem)
 contagem(
     int(input("Início: ")),
     int(input("Fim: ")),

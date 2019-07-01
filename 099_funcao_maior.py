@@ -8,7 +8,8 @@ def maior(* num):
         print(i, end='  ')
         if i > maior:
             maior = i
-    if cont == 0: print('Nada informado', end=' ')
+    if cont == 0:
+        print('Nada informado', end=' ')
     print()
     print('||', f'Foram informados {cont} valores ao todo', ' '*4)
     print('||', f"O maior valor dessa sequencia é: {maior}", ' '*4)

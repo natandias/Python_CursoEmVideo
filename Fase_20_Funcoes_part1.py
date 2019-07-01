@@ -1,5 +1,6 @@
 ''' Utilizadas para automatizar o código '''
-''' No Python sempre são passadas referências para as funções '''
+''' No Python são passados argumentos para as funções '''
+''' Tipos complexos são passados por referência (listas, tuplas, etc) '''
 
 #definindo função
 def titulo(msg):
